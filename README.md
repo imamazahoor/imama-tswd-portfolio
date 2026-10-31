@@ -21,8 +21,11 @@ I'm very excited about this class since effective data visualization and communi
 
 # Portfolio
 
-## Assignment: [Visualizing overnment Debt](visualizing-government-debt)
-For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `visualizing-government-debt.md`.  For links to Markdown files in your repository, you can just include the name of the page without the `.md` extension. 
+## Assignment: [Visualizing Government Debt](visualizing-government-debt)
+<center>
+<script type='module' src='https://us-east-1.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://us-east-1.online.tableau.com/t/izahoor-457b702d7e/views/VisualizingGovtDebt/Sheet1' width='1490' height='796' hide-tabs toolbar='bottom' ></tableau-viz>
+</center>
+
 
 ## Assignment 3&4: [Critique by Design](critique-by-design)
 For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `critique-by-design.md`.  
