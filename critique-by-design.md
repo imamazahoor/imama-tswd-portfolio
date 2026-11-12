@@ -7,6 +7,7 @@ For this assignment I took a #MakeoverMonday visualization about the animals tha
 ## Step one: the original visualization
 
 **Original:** [#MOM 2026 W37 – What are the world's deadliest animals?](https://public.tableau.com/app/profile/matt5450/viz/MOM2026W37-Whataretheworldsdeadliestanimals/MOM2026W37-Whataretheworldsdeadliestanimals) by Matt Meier, created for #MakeoverMonday 2026 Week 37 and published on Tableau Public.
+
 **Data source:** Hannah Ritchie and Fiona Spooner, ["What are the world's deadliest animals, and can we protect ourselves against them?"](https://ourworldindata.org/deadliest-animals), *Our World in Data*, March 2026 (2023 estimates).
 
 <div class='tableauPlaceholder' id='viz1794509129031' style='position: relative'><noscript><a href='#'><img alt='#MOM 2026 W37 - What are the world&#39;s deadliest animals ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;MO&#47;MOM2026W37-Whataretheworldsdeadliestanimals&#47;MOM2026W37-Whataretheworldsdeadliestanimals&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MOM2026W37-Whataretheworldsdeadliestanimals&#47;MOM2026W37-Whataretheworldsdeadliestanimals' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;MO&#47;MOM2026W37-Whataretheworldsdeadliestanimals&#47;MOM2026W37-Whataretheworldsdeadliestanimals&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                
@@ -19,14 +20,15 @@ For this assignment I took a #MakeoverMonday visualization about the animals tha
   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
 </script>
 
-I chose this topic because I wanted to tackle something interesting and this topic is also widely misunderstood. Most people think of sharks or other big predators as the deadliest animals, when the answer is actually mosquitoes. I wanted to convey this distinction in a simple manner.
 
-I specifically chose this visualization instead of the chart in the original Our World in Data article. It's more creative, which is what I liked about it first. The blood-drop shapes fit the topic and it stands out visually. But when I looked at it as a first-time reader, I had to work to find the main point. I wanted to articulate this trade-off between looking good and getting the message across in my critique and redesign.
+I chose this topic because I wanted to tackle something interesting and this topic is also widely misunderstood. Most people think of sharks or other big predators as the deadliest animals, when the answer is actually mosquitoes. I wanted to convey this distinction in a simple manner. I specifically chose this visualization instead of the chart in the original Our World in Data article. I found it very creative. The blood-drop shapes fit the topic and it stands out visually. But when I looked at it as a first-time reader, I had to put in extra effort to find the main point. I wanted to articulate this trade-off between looking good and getting the message across in my critique and redesign.
 
 ## Step two: the critique
 I like several things about the original design. The visual metaphor of the blood dripping down the page matches the topic about death. The red highlight against grey drops also draws attention while also contributing to the headline finding (insects first, mammals second, everything else far behind). The interactive detail panel also works really well with additional context for the viewer. However, the design choices sometimes pull against accurate readings. The drop shapes have a fixed length and only the top position encodes the value. The data label informs the viewer of the exact value, but it is difficult to ascertain which part of the drop it represents on first sight. Additionally, the linear scale squeezes 7 of the 9 categories into the same horizontal line near 0 (Fish and Mollusc have very different values but visually look the same). Lastly, the title is "What are the world's deadliest animals? Click on a drop to show information about this animal type" which is a good call-to-action but does not reveal any major insight or story from the data.
+
 Since this was made for #MakeoverMonday, the main audience is the Tableau and data visualization community. For that audience it is effective. It’s eye-catching and visually appealing, represents the provided dataset, and the main takeaway is quick. It might fall a little short for general viewers who are not familiar with taxonomic groups. Most readers know what an insect or a reptile is, but labels like "Nematode" or "Cnidarian" might be unfamiliar to a general audience and requires effort to work out what those groups are. This adds an extra layer of complexity. 
 Overall, I feel like this chart is currently effective as an engaging and explorable piece rather than a deeply informative one. 
+
 My main goal was to simplify the chart so the story is clear. Following were the original goals I came up with:
 1. I wanted to start by rewriting a title that conveys a major insight, such as "Mosquitoes kill about 760,000 people a year. Sharks kill 6." 
 2. Since taxonomic groups adds additional complexity through unfamiliar (and possibly meaningless) groups such as "Nematodes" (which basically just consists of roundworms), I thought charting individual animals instead would work better. 
@@ -70,7 +72,6 @@ Based on this feedback, the design changes I decided on were:
 ## References
 - Ritchie, H. and Spooner, F. (2026). "What are the world's deadliest animals, and can we protect ourselves against them?" *Our World in Data*. https://ourworldindata.org/deadliest-animals
 - Meier, M. (2026). "#MOM 2026 W37 – What are the world's deadliest animals?" Tableau Public. https://public.tableau.com/app/profile/matt5450/viz/MOM2026W37-Whataretheworldsdeadliestanimals/MOM2026W37-Whataretheworldsdeadliestanimals
-- #MakeoverMonday, 2026 Week 37.
 
 ## AI acknowledgements
 No AI was used to complete this assignment.
