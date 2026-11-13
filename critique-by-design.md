@@ -39,9 +39,13 @@ My main goal was to simplify the chart so the story is clear. Following were the
 
 ## Step three: Sketch a solution
 I sketched three options:
+
 Sketch A: Linear bars. A sorted bar chart with one red bar. The downside is that small values are hard to see without labels.
+
 Sketch B: Log scale. Every animal is readable, but it makes 760,000 and 100,000 look almost equal so the bar length can be misleading.
+
 Sketch D: Unit chart (1 dot = 1,000 deaths). This was visually the most appealing to me. However, the lower-count animals don't even get one dot.
+
 
 ![Sketch 1](sketch_1.png)
 ![Sketch 2](sketch_2.png)
@@ -64,6 +68,7 @@ Based on this feedback, the design changes I decided on were:
 I decided not to use the suggestion by interviewee 3 to use icons instead of text for the animals since that could add more complexity to my redesign. 
 
 ## Step five: build the solution
+Following the feedback, I wanted to rework the title so it better encompasses the main idea. I settled on "Sharks have a PR problem. Mosquitoes are the deadliest animal on Earth", since the second part captures the comparison well. I also changed the animals I included to even more familiar and feared ones. 
 
 <div class='tableauPlaceholder' id='viz1794511344084' style='position: relative'><noscript><a href='#'><img alt='Sharks have a PR problem. Mosquitoes are the deadliest animal on Earth.Estimated human deaths per year, by animal. Mosquitoes kill mainly by spreading malaria. ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeoverMondayRedesign_17945085804920&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MakeoverMondayRedesign_17945085804920&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeoverMondayRedesign_17945085804920&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                
 <script type='text/javascript'>                    
