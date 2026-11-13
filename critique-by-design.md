@@ -44,7 +44,7 @@ Sketch A: Linear bars. A sorted bar chart with one red bar. The downside is that
 
 Sketch B: Log scale. Every animal is readable, but it makes 760,000 and 100,000 look almost equal so the bar length can be misleading.
 
-Sketch D: Unit chart (1 dot = 1,000 deaths). This was visually the most appealing to me. However, the lower-count animals don't even get one dot.
+Sketch C: Unit chart (1 dot = 1,000 deaths). This was visually the most appealing to me. However, the lower-count animals don't even get one dot.
 
 
 ![Sketch 1](sketch_1.png)
