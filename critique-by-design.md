@@ -21,12 +21,12 @@ For this assignment I took a #MakeoverMonday visualization about the animals tha
 </script>
 
 
-I chose this topic because I wanted to tackle something interesting and this topic is also widely misunderstood. Most people think of sharks or other big predators as the deadliest animals, when the answer is actually mosquitoes. I wanted to convey this distinction in a simple manner. I specifically chose this visualization instead of the chart in the original Our World in Data article. I found it very creative. The blood-drop shapes fit the topic and it stands out visually. But when I looked at it as a first-time reader, I had to put in extra effort to find the main point. I wanted to articulate this trade-off between looking good and getting the message across in my critique and redesign. 
+I chose this topic because I wanted to tackle something interesting and this topic is also widely misunderstood. Most people think of sharks or other big predators as the deadliest animals, when the answer is actually mosquitoes. I wanted to convey this distinction in a simple manner. I specifically chose this visualization instead of the chart in the original Our World in Data article because I found it very creative. The blood-drop shapes fit the topic and it stands out visually. At the same, when I looked at it as a first-time reader, I had to put in extra effort to find the main point. I wanted to articulate this trade-off between looking good and getting the message across in my critique and redesign. 
 
 **Important note**: The designer of this visualization is also a professional in the data-viz community, so I knew I was not critiquing or redesigning the work of a student.
 
 ## Step two: the critique
-I like several things about the original design. The visual metaphor of the blood dripping down the page matches the topic about death. The red highlight against grey drops also draws attention while also contributing to the headline finding (insects first, mammals second, everything else far behind). The interactive detail panel also works really well with additional context for the viewer. However, the design choices sometimes pull against accurate readings. The drop shapes have a fixed length and only the top position encodes the value. The data label informs the viewer of the exact value, but it is difficult to ascertain which part of the drop it represents on first sight. Additionally, the linear scale squeezes 7 of the 9 categories into the same horizontal line near 0 (Fish and Mollusc have very different values but visually look the same). Lastly, the title is "What are the world's deadliest animals? Click on a drop to show information about this animal type" which is a good call-to-action but does not reveal any major insight or story from the data.
+I like several things about the original design. The visual metaphor of the blood dripping down the chart matches the topic about death. The red highlight against grey drops draws attention while also contributing to the headline finding. The interactive detail panel also works really well with additional context for the viewer. However, the design choices sometimes pull against accurate readings. The drop shapes have a fixed length and only the top position encodes the value. The data label informs the viewer of the exact value, but it is difficult to ascertain which part of the drop it represents on first sight. Additionally, the linear scale squeezes 7 of the 9 categories into the same horizontal line near 0 (Fish and Mollusc have very different values but visually look the same). Lastly, the title is "What are the world's deadliest animals? Click on a drop to show information about this animal type" which is a good call-to-action but does not reveal any major insight or story from the data.
 
 Since this was made for #MakeoverMonday, the main audience is the Tableau and data visualization community. For that audience it is effective. It’s eye-catching and visually appealing, represents the provided dataset, and the main takeaway is quick. It might fall a little short for general viewers who are not familiar with taxonomic groups. Most readers know what an insect or a reptile is, but labels like "Nematode" or "Cnidarian" might be unfamiliar to a general audience and requires effort to work out what those groups are. This adds an extra layer of complexity. 
 Overall, I feel like this chart is currently effective as an engaging and explorable piece rather than a deeply informative one. 
@@ -39,26 +39,29 @@ My main goal was to simplify the chart so the story is clear. Following were the
 
 ## Step three: Sketch a solution
 I sketched three options:
-Sketch A: Linear bars. A sorted bar chart with one red bar. The gap is apparent. The downside is that small values are hard to see without labels.
+Sketch A: Linear bars. A sorted bar chart with one red bar. The downside is that small values are hard to see without labels.
 Sketch B: Log scale. Every animal is readable, but it makes 760,000 and 100,000 look almost equal so the bar length can be misleading.
 Sketch D: Unit chart (1 dot = 1,000 deaths). This was visually the most appealing to me. However, the lower-count animals don't even get one dot.
 
-![Sketch 1](images/sketch_1.png)
-![Sketch 2](images/sketch_2.png)
+![Sketch 1](sketch_1.png)
+![Sketch 2](sketch_2.png)
 
 ## Step four: Test the solution
 
-| Question | Interview 1 | Interview 2 |
-|----------|-------------|-------------|
-|          |             |             |
-|          |             |             |
-|          |             |             |
+| Question | Interview 1 | Interview 2 | Interview 3 |
+|----------|-------------|-------------|-------------|
+| What do you think this design is trying to convey?         |  Number of deaths caused by different animals in a year     | That we overestimate the deaths caused by sharks  |  Mosquitoes cause the most deaths in a year    |
+| Which of the three sketches do you prefer? Why?       |   Sketch A since it's the most straightforward          | Sketch C is more creative but will also need more work to implement and understand      |     Sketch A because it's simple to understand        |
+| What do you like about the sketch? What works?        |  I like the simplicity of the redesign. I can immediately understand what you're trying to say  | I like that you put numbers in front of the bars so I can see what the actual count is        | I like the use of red to highlight. It also complements the new title.       |
+| What doesn't work? Is there anything you would change or do differently?        |   The title is reiterating the numbers in the chart. I like your alternative title option more because it's more witty and tells the story.          |  Since you have data labels, you can entirely remove the x-axis            |  Maybe try using icons instead of text for the animals?       |
 
 
 Based on this feedback, the design changes I decided on were:
 - **Go with Sketch A (linear bars)** since it was the easiest to understand. While **Sketch C (unit chart)** was also a popular choice due to the creative nature, it could also be more complicated to understand and implement.
 - **Remove the x-axis** since the data labels and subtitle would make it clear what each bar length is representing.
-- **Use a more creative title** since the title of my redesign was merely repeating information viewers could gather from the chart. The interviewees seemed to like my alternative title, "Sharks have a PR problem". 
+- **Use a more creative title** since the title of my redesign was merely repeating information viewers could gather from the chart. The interviewees seemed to like my alternative title, "Sharks have a PR problem".
+
+I decided not to use the suggestion by interviewee 3 to use icons instead of text for the animals since that could add more complexity to my redesign. 
 
 ## Step five: build the solution
 
