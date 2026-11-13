@@ -1,6 +1,6 @@
 | [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
-# # Sharks have a PR problem: redesigning "What are the world's deadliest animals?"
+# Sharks have a PR problem: redesigning "What are the world's deadliest animals?"
  
 For this assignment I took a #MakeoverMonday visualization about the animals that kill the most people each year and redesigned it so the story is clear at a glance. 
 
@@ -21,7 +21,9 @@ For this assignment I took a #MakeoverMonday visualization about the animals tha
 </script>
 
 
-I chose this topic because I wanted to tackle something interesting and this topic is also widely misunderstood. Most people think of sharks or other big predators as the deadliest animals, when the answer is actually mosquitoes. I wanted to convey this distinction in a simple manner. I specifically chose this visualization instead of the chart in the original Our World in Data article. I found it very creative. The blood-drop shapes fit the topic and it stands out visually. But when I looked at it as a first-time reader, I had to put in extra effort to find the main point. I wanted to articulate this trade-off between looking good and getting the message across in my critique and redesign.
+I chose this topic because I wanted to tackle something interesting and this topic is also widely misunderstood. Most people think of sharks or other big predators as the deadliest animals, when the answer is actually mosquitoes. I wanted to convey this distinction in a simple manner. I specifically chose this visualization instead of the chart in the original Our World in Data article. I found it very creative. The blood-drop shapes fit the topic and it stands out visually. But when I looked at it as a first-time reader, I had to put in extra effort to find the main point. I wanted to articulate this trade-off between looking good and getting the message across in my critique and redesign. 
+
+**Important note**: The designer of this visualization is also a professional in the data-viz community, so I knew I was not critiquing or redesigning the work of a student.
 
 ## Step two: the critique
 I like several things about the original design. The visual metaphor of the blood dripping down the page matches the topic about death. The red highlight against grey drops also draws attention while also contributing to the headline finding (insects first, mammals second, everything else far behind). The interactive detail panel also works really well with additional context for the viewer. However, the design choices sometimes pull against accurate readings. The drop shapes have a fixed length and only the top position encodes the value. The data label informs the viewer of the exact value, but it is difficult to ascertain which part of the drop it represents on first sight. Additionally, the linear scale squeezes 7 of the 9 categories into the same horizontal line near 0 (Fish and Mollusc have very different values but visually look the same). Lastly, the title is "What are the world's deadliest animals? Click on a drop to show information about this animal type" which is a good call-to-action but does not reveal any major insight or story from the data.
@@ -41,7 +43,8 @@ Sketch A: Linear bars. A sorted bar chart with one red bar. The gap is apparent.
 Sketch B: Log scale. Every animal is readable, but it makes 760,000 and 100,000 look almost equal so the bar length can be misleading.
 Sketch D: Unit chart (1 dot = 1,000 deaths). This was visually the most appealing to me. However, the lower-count animals don't even get one dot.
 
-_ADD SKETCH HERE_
+![Sketch 1](images/sketch_1.png)
+![Sketch 2](images/sketch_2.png)
 
 ## Step four: Test the solution
 
