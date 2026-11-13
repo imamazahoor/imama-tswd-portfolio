@@ -45,7 +45,7 @@ I'm very excited about this class since effective data visualization and communi
 
 
 ## Assignment 3&4: [Critique by Design](critique-by-design)
-For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `critique-by-design.md`.  
+[#MakeoverMonday Redesign](critique-by-design)
 
 ## Final project
 Here it might be helpful to include a high-level description of your final project. 
