@@ -40,12 +40,12 @@ Another major source I will use is the **U.S. Census Bureau**. The Small Area He
 
 I will join the HRSA and SAHIE data by county FIPS code to create one county-level table for Pennsylvania.
 
-| Name | URL | Description |
-|------|-----|-------------|
-|  HRSA Uniform Data System (UDS), 2024   |  [Data Downloads](https://data.hrsa.gov/data/download)   |   Annual data reported by each HRSA-funded health center. Includes patient counts, income, insurance status, services, and visits. Used for patient totals, insurance mix, and trends over time.          |
-| HRSA Health Center Service Delivery and Look-Alike Sites     | [Data Downloads](https://data.hrsa.gov/data/download)    |  List of every health center site with address, coordinates, county, and site type. Used to map clinic locations, count sites per county, and calculate distance to the nearest clinic.           |
-|  Model- Based SAHIE Estimates for Counties and States: 2024    | [U.S. Census Bureau Small Area Health Insurance Estimates (SAHIE), 2024](https://www.census.gov/data/datasets/time-series/demo/sahie/estimates-acs.html)    |   County-level estimates of uninsured residents under 65, by age, sex, and income relative to poverty. Used for county uninsured rates and the number of low-income residents (at or below 200% of poverty).          |
-|  Census TIGER/Line Shapefiles    | [TIGER/Line Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2024.html#list-tab-790442341)    |   Census tract boundaries and center points for Pennsylvania. Used to calculate distance from each tract to the nearest clinic site.    |
+| Name | URL | Data Location | Description |
+|------|-----|--------|-------------|
+|  HRSA Uniform Data System (UDS), 2024   |  [Data Downloads](https://data.hrsa.gov/data/download)   | [H80-2025.zip](/project_data) and [LAL-2025.xlsx](/project_data) |  Annual data reported by each HRSA-funded health center. Includes patient counts, income, insurance status, services, and visits. Used for patient totals, insurance mix, and trends over time.          |
+| HRSA Health Center Service Delivery and Look-Alike Sites     | [Data Downloads](https://data.hrsa.gov/data/download)    | [Health_Center_Service_Delivery_and_LookAlike_Sites.csv](/project_data) | List of every health center site with address, coordinates, county, and site type. Used to map clinic locations, count sites per county, and calculate distance to the nearest clinic.           |
+|  Model- Based SAHIE Estimates for Counties and States: 2024    | [U.S. Census Bureau Small Area Health Insurance Estimates (SAHIE), 2024](https://www.census.gov/data/datasets/time-series/demo/sahie/estimates-acs.html)    | [sahie-2024-csv.zip]((/project_data))  | County-level estimates of uninsured residents under 65, by age, sex, and income relative to poverty. Used for county uninsured rates and the number of low-income residents (at or below 200% of poverty).          |
+|  Census TIGER/Line Shapefiles    | [TIGER/Line Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2024.html#list-tab-790442341)    |  [tl_2026_42_tract.zip](/project_data) |Census tract boundaries and center points for Pennsylvania. Used to calculate distance from each tract to the nearest clinic site.    |
 
 
 # Method and medium
