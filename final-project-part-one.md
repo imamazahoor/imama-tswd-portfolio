@@ -25,11 +25,11 @@ Secondary audience: General adult readers in Pennsylvania who may not know what 
 |      | Compare high-need, low-access counties with well-served counties, such as distance to the nearest clinic, and adults without a routine checkup. |  What does the gap mean for residents? What’s the cost of this gap?  |
 |   Resolution   | What are a patient’s options in a high-need county, including nearest clinic, mobile units, school-based sites, telehealth.  | What options exist? Where can people go? |
 
-![Story Arc](final_sketch_3)
+![Story Arc](final_sketch_3.png)
 
 ## Initial sketches
-![Sketch 1](final_sketch_1)
-![Sketch 2](final_sketch_2)
+![Sketch 1](final_sketch_1.png)
+![Sketch 2](final_sketch_2.png)
 
 # The data
 My primary data source is **Health Resources and Services Administration (HRSA)**, which collects standard data from health centers every year, including patient demographics, income, insurance status, and services. Data is available at the national, state, and health center level. It also maintains a list of every health center site with address, and site type (permanent, seasonal, mobile, school-based). I will filter these datasets to Pennsylvania and use them to map clinic locations.
