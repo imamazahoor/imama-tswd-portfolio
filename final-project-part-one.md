@@ -19,6 +19,7 @@ Secondary: General readers in Pennsylvania who may not know what safety net clin
 3. As a public health or nonprofit staff member, I want to see which counties have high need and few clinic sites, so that I can decide where to focus outreach or mobile services.
 
 **Story Outline**
+
 | Stage | Content | Question Answered |
 |------|-----|-------------|
 | Setup  |  Definition of FQHCs and look-alikes, sliding fee scale, and who they serve. |  What is a safety net clinic? |
