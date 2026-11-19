@@ -22,9 +22,9 @@ Secondary: General readers in Pennsylvania who may not know what safety net clin
 | Stage | Content | Question Answered |
 |------|-----|-------------|
 | Setup  |  Definition of FQHCs and look-alikes, sliding fee scale, and who they serve. |  What is a safety net clinic? |
-|      | How many Pennsylvanians use them, and how uninsured rates changed from previous years to 2024.    |   How many people depend on them (i.e. the need)?   |
+|  Setup    | How many Pennsylvanians use them, and how uninsured rates changed from previous years to 2024.    |   How many people depend on them (i.e. the need)?   |
 |  Conflict    | Map of clinic sites vs. uninsured rates by county. Identify high-need, low-access counties. |    Are clinics where the need is?     |
-|      | Compare high-need, low-access counties with well-served counties, such as distance to the nearest clinic, and adults without a routine checkup. |  What does the gap mean for residents? What’s the cost of this gap?  |
+| Conflict     | Compare high-need, low-access counties with well-served counties, such as distance to the nearest clinic, and adults without a routine checkup. |  What does the gap mean for residents? What’s the cost of this gap?  |
 |   Resolution   | What are a patient’s options in a high-need county, including nearest clinic, mobile units, school-based sites, telehealth.  | What options exist? Where can people go? |
 
 ![Story Arc](final_sketch_3.png)
