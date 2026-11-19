@@ -1,15 +1,17 @@
 | [home page](https://imamazahoor.github.io/imama-tswd-portfolio/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
 # Outline
-Safety net clinics are health centers that treat patients regardless of insurance status or ability to pay. Most are federally qualified health centers (FQHCs) or FQHC look-alikes. They charge on a sliding fee scale based on income and provide primary care, dental care, behavioral health, and services like transportation and translation. Pennsylvania's FQHCs serve more than 1 million patients a year at more than 475 sites, but those sites are in 57 of the state's 67 counties [reference](https://pachc.org/wp-content/uploads/2025/05/Funding-FQHCs-in-State-Budget.pdf).
+Safety net clinics are health centers that treat patients regardless of insurance status or ability to pay. Most are federally qualified health centers (FQHCs) or FQHC look-alikes. They charge on a sliding fee scale based on income and provide primary care, dental care, behavioral health, and services like transportation and translation. Pennsylvania's FQHCs serve more than 1 million patients a year at more than 475 sites, but those sites are in 57 of the state's 67 counties ([reference](https://pachc.org/wp-content/uploads/2025/05/Funding-FQHCs-in-State-Budget.pdf)).
 
 This project looks at whether Pennsylvania's safety net clinics are located where uninsured and low-income residents live. I will compare clinic locations with county uninsured rates, poverty, and health care shortage areas, and identify counties where need is high and clinic access is low. 
 
 > Pennsylvania's safety net clinics serve over a million people, but they are not evenly spread across the state, and some counties with high uninsured rates have few or no clinic sites.
 
 **Audience**
-Primary audience: County health departments and nonprofits who need to know where access gaps are. 
-Secondary audience: General readers in Pennsylvania who may not know what safety net clinics are or where they are.
+
+Primary: State and County health departments, as well as nonprofits who need to know where access gaps are. 
+
+Secondary: General readers in Pennsylvania who may not know what safety net clinics are or where they are.
 
 **User Stories**
 1. As a Pennsylvania resident, I want to know what a safety net clinic is and whether there is one near me, so that I know where to go for low-cost care.
