@@ -1,42 +1,54 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
-
-
-> Important note: this template includes major elements of Part I, but the instructions on Canvas are the authoritative source.  Make sure to read through the assignment page and review the rubric to confirm you have everything you need before submitting.  When done, delete these instructions before submitting.
+| [home page](https://imamazahoor.github.io/imama-tswd-portfolio/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
 # Outline
-> Include a high-level summary of your project.  This should be a couple paragraphs that describe what you're interested in showing with your final project. 
- 
-Text here...
+Safety net clinics are health centers that treat patients regardless of insurance status or ability to pay. Most are federally qualified health centers (FQHCs) or FQHC look-alikes. They charge on a sliding fee scale based on income and provide primary care, dental care, behavioral health, and services like transportation and translation. Pennsylvania's FQHCs serve more than 1 million patients a year at more than 475 sites, but those sites are in 57 of the state's 67 counties [Reference](https://pachc.org/wp-content/uploads/2025/05/Funding-FQHCs-in-State-Budget.pdf).
 
-> A project structure that outlines the major elements of your story.  Your Good Charts text talks about story structure in Chapter 8 - you should describe what you hope to achieve.  Make sure the outline is detailed enough that we can see how you anticipate your story unfolding.  You can incorporate your Story Arc from the in-class exercise along with your user stories and one sentence summary to make the topic even more clear. 
+This project looks at whether Pennsylvania's safety net clinics are located where uninsured and low-income residents live. I will compare clinic locations with county uninsured rates, poverty, and health care shortage areas, and identify counties where need is high and clinic access is low. 
 
-Text here...
+> Pennsylvania's safety net clinics serve over a million people, but they are not evenly spread across the state, and some counties with high uninsured rates have few or no clinic sites.
+
+**Audience**
+Primary audience: County health departments, nonprofits, and funders who need to know where access gaps are. 
+Secondary audience: General adult readers in Pennsylvania who may not know what safety net clinics are or where they are.
+
+**User Stories**
+1. As a Pennsylvania resident, I want to know what a safety net clinic is and whether there is one near me, so that I know where to go for low-cost care.
+2. As a resident, I want to see how my county compares with others, so that I understand whether my area is well served.
+3. As a public health or nonprofit staff member, I want to see which counties have high need and few clinic sites, so that I can decide where to focus outreach or mobile services.
+
+**Story Outline**
+| Stage | Content | Question Answered |
+|------|-----|-------------|
+| Setup  |  Definition of FQHCs and look-alikes, sliding fee scale; and who they serve. |  What is a safety net clinic? |
+|      | How many Pennsylvanians use them, and how uninsured rates changed from 2023 to 2024.    |   How many people depend on them (i.e the need)?   |
+|  Conflict    | Map of clinic sites vs. uninsured rates by county. Identify high-need, low-access counties. |    Are clinics where the need is?     |
+|      | Compare high-need, low-access counties with well-served counties, such as distance to the nearest clinic, and adults without a routine checkup. |  What does the gap mean for residents? What’s the cost of this gap?  |
+|   Resolution   | What are a patient’s options in a high-need county, including nearest clinic, mobile units, school-based sites, telehealth.  | What options exist? Where can people go? |
+
+![Story Arc](final_sketch_3)
 
 ## Initial sketches
-> Post images of your anticipated data visualizations (sketches are fine). They should mimic aspects of your outline, and include elements of your story.  
-
-Text here...
+![Sketch 1](final_sketch_1)
+![Sketch 2](final_sketch_2)
 
 # The data
-> A couple of paragraphs that document your data source(s), and an explanation of how you plan on using your data. 
-
-Text here...
-
-> A link to the publicly-accessible datasets you plan on using, or a link to a copy of the data you've uploaded to your Github repository, Box account or other publicly-accessible location. Using a datasource that is already publicly accessible is highly encouraged.  If you anticipate using a data source other than something that would be publicly available please talk to me first. 
+My primary data source is **Health Resources and Services Administration (HRSA)**, which collects standard data from health centers every year, including patient demographics, income, insurance status, and services. Data is available at the national, state, and health center level. It also maintains a list of every health center site with address, and site type (permanent, seasonal, mobile, school-based). I will filter these datasets to Pennsylvania and use them to map clinic locations.
+Another major source I will use is the **U.S. Census Bureau**. The Small Area Health Insurance Estimates (SAHIE) provide county-level uninsured estimates for all U.S. counties by age, sex, and income relative to poverty. Since the 2024 estimates were released recently, I will use 2024 as my latest year for all datasets.  
+I will join the HRSA and SAHIE data by county FIPS code to create one county-level table for Pennsylvania.
 
 | Name | URL | Description |
 |------|-----|-------------|
-|      |     |             |
-|      |     |             |
-|      |     |             |
+|  HRSA Uniform Data System (UDS), 2024   |  [Data Downloads](https://data.hrsa.gov/data/download)   |   Annual data reported by each HRSA-funded health center. Includes patient counts, income, insurance status, services, and visits. Used for patient totals, insurance mix, and trends over time.          |
+| HRSA Health Center Service Delivery and Look-Alike Sites     | [Data Downloads](https://data.hrsa.gov/data/download)    |  List of every health center site with address, coordinates, county, and site type. Used to map clinic locations, count sites per county, and calculate distance to the nearest clinic.           |
+|  Model- Based SAHIE Estimates for Counties and States: 2024    | [U.S. Census Bureau Small Area Health Insurance Estimates (SAHIE), 2024](https://www.census.gov/data/datasets/time-series/demo/sahie/estimates-acs.html)    |   County-level estimates of uninsured residents under 65, by age, sex, and income relative to poverty. Used for county uninsured rates and the number of low-income residents (at or below 200% of poverty).          |
+|  Census TIGER/Line Shapefiles    | [TIGER/Line Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2024.html#list-tab-790442341)    |   County-level estimates of uninsured residents under 65, by age, sex, and income relative to poverty. Used for county uninsured rates and the number of low-income residents (at or below 200% of poverty).          |
+
 
 # Method and medium
-> In a few sentences, you should document how you plan on completing your final project. 
-
-Text here...
+The final project will be a scrolling story built in **Shorthand**, with charts, maps, and a simple dashboard built in **Tableau** and embedded in the story. Interactive features will include hovering over maps to see additional data as well as dropdowns in the dashboard so viewers can select specific counties. Data cleaning and joins will be done in Python with the code saved in the repository. 
 
 ## References
-_List any references you used here._
+_Pennsylvania Association of Community Health Centers. Funding FQHCs in State Budget: Fiscal Year 2025–2026: Medical Assistance Programs, CHC Funding in State Budget; $50 Million Request. 2024, pachc.org/wp-content/uploads/2025/05/Funding-FQHCs-in-State-Budget.pdf._
 
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
+_No AI was used throughout this assignment._
