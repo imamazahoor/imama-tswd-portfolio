@@ -18,6 +18,7 @@ I made sure all my data is from 2024. I replaced my 2025 health center (UDS) fil
 I switched from Shorthand to ArcGIS StoryMaps. StoryMaps lets the map zoom smoothly from the state to Somerset County while showing my data. I still use Tableau for the other non-map charts.
 
 ## Revised Story Structure for Part II Storyboarding
+
 | Stage  | Content | Question Answered     | Change from Part I |
 |-------|-----|----------|------------|
 | Setup | What safety net clinics are and who uses them. Statewide map of clinic sites and uninsured rates. Economic and social burden of underserving.  | What is a safety net clinic, and where are they? | |
@@ -51,7 +52,7 @@ I will interview **at least three people** who represent different parts of my a
 | A general reader with no health or data background | Tests whether the story is clear for non-experts | Friends or family outside my program |
 | A classmate in this course | Gives feedback on design and data visualization choices | Classmates |
 
-Text here!
+
 
 | Goal | Questions to Ask |
 |------|------------------|
@@ -102,5 +103,5 @@ Text here!
 _List any references you used here._
 
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
+_No AI was used for this part._
 
