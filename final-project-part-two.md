@@ -62,23 +62,28 @@ I will interview **at least three people** who represent different parts of my a
 |------|------------------|
 | Learn what the person already knows     |  Have you heard of community health centers or safety net clinics before? What do you know about them? Have you or someone you know ever had trouble finding affordable health care?  |
 |  Check if readers can read the scatterplot    |  What is this chart showing? Which counties is the story focusing on? How can you tell? Was anything confusing or hard to read?     |
-| Check if readers can read the statewide map	| What does the color show? What do the dots show?Which areas look like they have fewer clinics?|
+| Check if readers can read the statewide map	| What does the color show? What do the dots show? Which areas look like they have fewer clinics?|
 |Test whether the zoom helps or confuses|	Did the zoom help you follow the story, or was it distracting?|
 |Get input on the unfinished sections |	If I showed a proposed clinic location here, what would you want to know about it?|
-|Check the main takeaway |	What is the main takeaway of this story, in one sentence? |
-|Find weak spots and test trust in the data	22. Was there any point where you lost interest or felt lost? | Do you trust the story? If you could change one thing, what would it be? Is there anything missing in this story?|
+|Check the main takeaway |	What is the main takeaway of this story, in one sentence? Is there anything missing in this story?|
 
 
 ## Interview findings
-> Detail the findings from your interviews.  Do not include PII.  Capture specific insights where possible.
 
-Text here!
+### Interviewees
+- 1: Classmates in this course
+- 2: Health Care Analytics student
+- 3. A general reader with no health or data background
 
 | Questions               | Interview 1 (briefly describe) | Interview 2 | Interview 3 |
 |-------------------------|--------------------------------|-------------|-------------|
-| Question you asked here | Insightful feedback            |             |             |
-|                         |                                |             |             |
-|                         |                                |             |             |
+| Is the scatterplot clear? Was anything confusing or hard to read? | - chart is a little confusing when comparing with state median and so, could make demarcation lines a bit darker.
+- Make axis titles more clear since it is a little hard to read
+- Area of interest is in the bottom right so find a way to give them more real estate           |             |             |
+| Did the zoom help you follow the story, or was it distracting? |    It helped.                      |             |             |
+| If I showed a proposed clinic location here, what would you want to know about it?    |  - Logistics, such as how far it is, how can people access it, and what kind of services would they offer based on county needs?  |             |             |
+| Is there anything missing in this story? | I didn't know what safety clinics were before this, and I could follow your story arc easily. | | |
+
 
 
 # Identified changes for Part III
