@@ -77,11 +77,9 @@ I will interview **at least three people** who represent different parts of my a
 
 | Questions               | Interview 1 (briefly describe) | Interview 2 | Interview 3 |
 |-------------------------|--------------------------------|-------------|-------------|
-| Is the scatterplot clear? Was anything confusing or hard to read? | - chart is a little confusing when comparing with state median and so, could make demarcation lines a bit darker.
-- Make axis titles more clear since it is a little hard to read
-- Area of interest is in the bottom right so find a way to give them more real estate           |             |             |
+| Is the scatterplot clear? Was anything confusing or hard to read? | The chart is a little confusing when comparing with state median and so, could make demarcation lines a bit darker. Make axis titles more clear since it is a little hard to read. Area of interest is in the bottom right so find a way to give them more real estate,           |             |             |
 | Did the zoom help you follow the story, or was it distracting? |    It helped.                      |             |             |
-| If I showed a proposed clinic location here, what would you want to know about it?    |  - Logistics, such as how far it is, how can people access it, and what kind of services would they offer based on county needs?  |             |             |
+| If I showed a proposed clinic location here, what would you want to know about it?    |  Logistics, such as how far it is, how can people access it, and what kind of services would they offer based on county needs.  |             |             |
 | Is there anything missing in this story? | I didn't know what safety clinics were before this, and I could follow your story arc easily. | | |
 
 
@@ -103,10 +101,6 @@ Text here!
 
 Text here!
 
-# Moodboards / personas
-> If you did this optional part, include details here.  Otherwise remove this section
-
-Text here!
 
 ## References
 _List any references you used here._
