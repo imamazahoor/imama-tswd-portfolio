@@ -34,6 +34,10 @@ I switched from Shorthand to ArcGIS StoryMaps. StoryMaps lets the map zoom smoot
 ![Sketch 1](sketch_part2_tswd.png)
 ![Sketch 2](sketch_part2_tswd_1.png)
 
+Draft of ArcGIS StoryMaps: [Safety Net Clinics in Pennsylvania: Where Are the Gaps?](https://arcg.is/0mvPjH1)
+
+**Note:** This is an initial draft version with placeholders. 
+
 # User research 
 
 ## Target audience
