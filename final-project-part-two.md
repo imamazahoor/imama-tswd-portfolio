@@ -73,14 +73,14 @@ I will interview **at least three people** who represent different parts of my a
 ### Interviewees
 - 1: Classmates in this course
 - 2: Health Care Analytics student
-- 3. A general reader with no health or data background
+- 3. A general reader with little to no context of this course
 
 | Questions               | Interview 1 (briefly describe) | Interview 2 | Interview 3 |
 |-------------------------|--------------------------------|-------------|-------------|
-| Is the scatterplot clear? Was anything confusing or hard to read? | The chart is a little confusing when comparing with state median and so, could make demarcation lines a bit darker. Make axis titles more clear since it is a little hard to read. Area of interest is in the bottom right so find a way to give them more real estate,           |             |             |
-| Did the zoom help you follow the story, or was it distracting? |    It helped.                      |             |             |
-| If I showed a proposed clinic location here, what would you want to know about it?    |  Logistics, such as how far it is, how can people access it, and what kind of services would they offer based on county needs.  |             |             |
-| Is there anything missing in this story? | I didn't know what safety clinics were before this, and I could follow your story arc easily. | | |
+| Is the scatterplot clear? Was anything confusing or hard to read? | The chart is a little confusing when comparing with state median and so, could make demarcation lines a bit darker. Make axis titles more clear since it is a little hard to read. Area of interest is in the bottom right so find a way to give them more real estate,           |             | Consider truncating the x-axis at the start since the uninsured rates don't start until 4%            |
+| Did the zoom help you follow the story, or was it distracting? |    It helped.                      |             |  The zoom and transitions helped with the flow but think about how they can support the narrative by incorporating the charts within the sidecar instead of breaking the flow to show them. Right now, it seems a little disconnected.    |
+| If I showed a proposed clinic location here, what would you want to know about it?    |  Logistics, such as how far it is, how can people access it, and what kind of services would they offer based on county needs.  |             | Connecting it back to the economic and social burden you mention at the start, and show how this can help alleviate some of that.  |
+| Is there anything missing in this story? | I didn't know what safety clinics were before this, and I could follow your story arc easily. | | The story itself is clear but think about how you'll incorporate all the individual elements (maps, charts, text etc.) to make it cohesive. Some of the charts are work in progress but make sure to use clear titles and colors for those. |
 
 
 
