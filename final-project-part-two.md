@@ -77,33 +77,36 @@ I will interview **at least three people** who represent different parts of my a
 
 | Questions               | Interview 1 (briefly describe) | Interview 2 | Interview 3 |
 |-------------------------|--------------------------------|-------------|-------------|
-| Is the scatterplot clear? Was anything confusing or hard to read? | The chart is a little confusing when comparing with state median and so, could make demarcation lines a bit darker. Make axis titles more clear since it is a little hard to read. Area of interest is in the bottom right so find a way to give them more real estate,           |             | Consider truncating the x-axis at the start since the uninsured rates don't start until 4%            |
-| Did the zoom help you follow the story, or was it distracting? |    It helped.                      |             |  The zoom and transitions helped with the flow but think about how they can support the narrative by incorporating the charts within the sidecar instead of breaking the flow to show them. Right now, it seems a little disconnected.    |
-| If I showed a proposed clinic location here, what would you want to know about it?    |  Logistics, such as how far it is, how can people access it, and what kind of services would they offer based on county needs.  |             | Connecting it back to the economic and social burden you mention at the start, and show how this can help alleviate some of that.  |
-| Is there anything missing in this story? | I didn't know what safety clinics were before this, and I could follow your story arc easily. | | The story itself is clear but think about how you'll incorporate all the individual elements (maps, charts, text etc.) to make it cohesive. Some of the charts are work in progress but make sure to use clear titles and colors for those. |
+| Is the scatterplot clear? Was anything confusing or hard to read? | The chart is a little confusing when comparing with state median and so, could make demarcation lines a bit darker. Make axis titles more clear since it is a little hard to read. Area of interest is in the bottom right so find a way to give them more real estate,           |  Move the labels for state median lines so that they're clear and standout. Write a short paragraph about what you're trying to achieve with the plot. | Consider truncating the x-axis at the start since the uninsured rates don't start until 4%            |
+| Did the zoom help you follow the story, or was it distracting? |    It helped.                      | The zoom was helpful but the maps need a clear legend. Also, when you highlight the 14 underserved counties, make the outlines a different color (e.g. red) so the contrast is clearer.    |  The zoom and transitions helped with the flow but think about how they can support the narrative by incorporating the charts within the sidecar instead of breaking the flow to show them. Right now, it seems a little disconnected.    |
+| If I showed a proposed clinic location here, what would you want to know about it?    |  Logistics, such as how far it is, how can people access it, and what kind of services would they offer based on county needs.  | Improvement in the colors in the tract-level analysis map to show that the new distances are better. | Connecting it back to the economic and social burden you mention at the start, and show how this can help alleviate some of that.  |
+| Is there anything missing in this story? | I didn't know what safety clinics were before this, and I could follow your story arc easily. | No, I could follow it pretty easily. | The story itself is clear but think about how you'll incorporate all the individual elements (maps, charts, text etc.) to make it cohesive. Some of the charts are work in progress but make sure to use clear titles and colors for those. |
 
 
 
 # Identified changes for Part III
-> Document the changes you plan on implementing next week to address any issues identified.  
-
-Text here!
 
 | Research synthesis                       | Anticipated changes for Part III                                                |
 |------------------------------------------|---------------------------------------------------------------------------------|
-| Findings or observations from interviews | Describe what, if any changes you anticipate making to address the observation. |
-|                                          |                                                                                 |
-|                                          |                                                                                 |
-|                                          |                                                                                 |
-| ...add more rows as necessary            |                                                                                 |
+| The median lines on the scatterplot were hard to see, and their labels didn't stand out. P1 said the chart was "a little confusing when comparing with state median" and suggested darker lines. P2 suggested moving the labels so they're clear. | I will make the median lines darker and thicker, and move the labels to open space at the end of each line, in bold. |
+|  The scatterplot's axis titles were hard to read. | I will increase the axis title font size and use plain wording: "Uninsured rate (under 65)" and "Clinic sites per 10,000 low-income residents."  I will also change the orientation of the y-axis title from vertical to horizontal. |
+|  The area of interest (bottom right) is too small, and the x-axis starts at 0% even though no county is below 4%. |  I will start the x-axis at 4%. I will also test capping the y-axis so the bottom-right corner gets more space, with a note naming the 4 counties above the cap.  |
+|  A short explanation of what the scatterplot is trying to show. |  I will add 2–3 sentences above the chart explaining what each dot means, what the median lines mean, and why the bottom-right corner matters.  |
+| The maps need a clear legend.  | I will turn on a legend for every map slide and give each one a plain title, such as "Uninsured rate (under 65)" and "Miles to nearest clinic." |
+| The outlines for the 14 counties need more contrast. P2 suggested red. | I will change the outlines to red. This also matches the red dots for the same counties in the scatterplot, so readers can connect the two.|
+| For a proposed clinic, readers want logistics: how far it is, how people would get there, and what services it would offer. They also want to see that new distances would be better. | I will show before-and-after tract maps using the same color scale, plus two numbers: tracts more than 10 miles from a clinic and average miles to the nearest clinic, before and after.|
+|The proposed clinic should connect back to the burden described at the start. | I will state the cost of long distances to care more clearly in the introduction, and close the story by showing how many residents a new clinic would bring within 10 miles.|
 
-> ...include any final thoughts you have here. 
+## Additional changes
+- Add Amish/Mennonite population data by county and show which of the 14 counties may be affected by each of the three explanations.
+- Run the placement analysis for Somerset and report the proposed location with before-and-after distances.
+- Add a closing section that lists data sources and limitations (straight-line distances, site counts that don't show clinic size, SAHIE covering people under 65 only, and the 2024 site filter).
 
-Text here!
+Overall, all three interviewees could follow the story arc. The most consistent feedback was about visual clarity. For example, the scatterplot's median lines, axes and empty space as well as legends and outline colors on the maps. My priorities for Part III are to fix the scatterplot and map legends, move the charts into the sidecar so the story feels connected, and finish the placeholder sections, and making sure the placement section answers readers' questions about benefits.
 
 
 ## References
-_List any references you used here._
+None, aside from the data sources.
 
 ## AI acknowledgements
 _No AI was used for this part._
